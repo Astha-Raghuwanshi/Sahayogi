@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+*{
+    margin-top: 100;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins','sans-serif';
+}
+
+body 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #000 url(//cssanimation.rocks/demo/starwars/images/bg.jpg);
+}
+
+/*--------------------------------------------------------------
+# Form
+--------------------------------------------------------------*/
+
+.form-page-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.box
+{
+    position: relative;
+}
+
+.form
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+}
+
+.form h2
+{
+    position: relative;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+
+.form h2::before
+{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 80px;
+    height: 4px;
+    background: #fff;
+}
+
+.form .input-box
+{
+    width: 100%;
+    margin-top: 20px;
+}
+.form .input-boxg
+{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.form .input-boxg label
+{
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.form .input-box input
+{
+    width: 100%;
+    background: rgba(255,255,255,0.2);
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 35px;
+    border: 1px solid rgba(255,255,255,0.5);
+    border-right: 1px solid rgba(255,255,255,0.2);
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.form .input-box input::placeholder
+{
+    color: #fff;
+}
+
+.form .input-box button
+{
+    background: #fff;
+    color: #666;
+    max-width: 100%;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.form .btn-layer
+{
+    background: #fff;
+    color: #666;
+    max-width: 100%;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-weight: 600;
+
+}
+
+.form input[type="submit"]
+{
+    width: 100%;
+    background: #fff;
+    color: #666;
+    max-width: 100%;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 35px;
+    margin: 20px 0;
+    font-weight: 600;
+}
+
+
